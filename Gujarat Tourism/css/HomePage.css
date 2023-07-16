@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.guj-banner::before{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    background: url('/img/BANNER-GUJ-1.jpg') no-repeat center/cover;
+    height: 70%;
+    width: 100%;
+    filter: brightness(40%);
+    /* filter: blur(2px); */
+
+}
+
+/* .guj-banner:hover::before {
+    filter: blur(5px);
+} */
+
+.guj-banner:hover ~ h1{
+    opacity: 1;
+}
+
+.guj-banner h1{
+    /* background-color: rgba(35,35,35,0.3); */
+    font-size: 4.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* padding-left: 20px; */
+    padding-top: 270px;
+    /* opacity: 0; */
+    transition: all 0.5s ease-in;
+}
+
+.guj-banner {
+    width: 100%;
+    /* border: 2px solid green; */
+    height: 530px;
+}
+
+.swiper{
+    width: 97%;
+}
+
+.trial h1, .top-destination h1, .begin-jour h1, .stay h1{
+    margin: 21px 52px;
+}
+
+.trial-container, .top-container{
+    /* border: 2px solid green; */
+    height: 500px;
+}
+
+.trial-content, .top-dest-content, .begin-content{
+    /* border: 2px solid red; */
+    height: 90%;
+}
+
+.top-dest-wrapper{
+    width: 50%;
+}
+.trial-card, .top-dest-card ,.begin-card{
+    /* overflow: hidden; */
+    /* border: 2px solid black; */
+    height: 350px;
+    /* padding: 55px 0px; */
+    margin: 0px 70px;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+.trial-card img, .top-dest-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+.begin-container{
+    height: 500px;
+}
+
+.trial-img{
+    cursor: pointer;
+}
+
+.begin-img img, .top-dest-img img, .trial-img img{
+    width: 65%;
+    aspect-ratio: 0.75;
+    border-radius: 10px;
+}
+
+.begin-card, .top-dest-card, .trial-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.begin-city p, .top-dest-content-text p, .trial-img-text p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.stay-container{
+    margin: 32px 52px;
+    /* border: 2px solid green; */
+    display: flex;
+    min-height: 500px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.stay-item1::before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    height: 65%;
+    width: 25%;
+    background: url('/img/stay/toran.jpg') no-repeat center/cover;
+    border-radius: 10px;
+}
+
+.stay-item2::before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    height: 65%;
+    width: 25%;
+    background: url('/img/stay/heritage.jpg') no-repeat center/cover;
+    border-radius: 10px;
+}
+
+.stay-item3::before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    height: 65%;
+    width: 25%;
+    background: url('/img/stay/homeStay.jpg') no-repeat center/cover;
+    border-radius: 10px;
+}
+.stay-item{
+    /* border: 2px solid red; */
+    width: 28%;
+    margin: 2px 2px;
+}
+
+.stay-content-flex{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.stay-item:hover{
+    opacity: 0.8;
+}
+.stay-item:hover .stay-content{
+    visibility: visible;
+}
+
+.stay-content{
+    background-color: rgb(204, 175, 175);
+    height: 50px;
+    width: 95.7%;
+    align-items: end;
+    visibility: hidden;
+    opacity: 1 !important;
+    border-radius: 10px;
+}
+
+.stay-content p{
+    text-align: center;
+    font-size: 1.5rem;
+}

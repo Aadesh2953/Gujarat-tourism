@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gujarat Tourism</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/HomePage.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html"><img src="/img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-margin mb-2 mb-lg-0 d-flex">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/AboutGujarat.html">About Gujarat</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/index.html#stay" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pick Your Trail
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/cuisine.html">Cuisine</a></li>
+                  <li><a class="dropdown-item" href="/ArtCraft.html">Art and Craft</a></li>
+                  <li><a class="dropdown-item" href="/FloraFauna.html">Flora and Fauna</a></li>
+                  <li><a class="dropdown-item" href="/Museums.html">Museums</a></li>
+                  <li><a class="dropdown-item" href="/Temple.html">Temple</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#stay">Plan Your Stay</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destination
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ahmedabad</a></li>
+                  <li><a class="dropdown-item" href="#">Rajkot</a></li>
+                  <li><a class="dropdown-item" href="#">Bhuj</a></li>
+                  <li><a class="dropdown-item" href="#">Bhavnagar</a></li>
+                  <li><a class="dropdown-item" href="#">Vadodara</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar Ends -->
+
+    <!-- Background Banner -->
+    <div class="guj-banner">
+      <!-- <img src="/img/BANNER-GUJ-1.jpg" alt=""> -->
+      <h1>Welcome to Gujarat</h1>
+    </div>
+    <!-- Background Banner Ends -->
+
+    <!-- Pick Your trial section -->
+    <div class="trial" id="trial-id">
+      <h1>Pick Your Trail: </h1>
+      <div class="trial-container swiper">
+        <div class="trial-content">
+          <div class="trial-wrapper swiper-wrapper">
+            <div class="trial-card swiper-slide" onclick="location.href='/cuisine.html'">
+              <div class="trial-img">
+                <img src="/img/Trial/cuisine.jpg" alt="">
+              </div>
+              <div class="trial-img-text">
+                <p>Cuisine</p>
+              </div>
+            </div>
+            <div class="trial-card swiper-slide" onclick="location.href='/ArtCraft.html'" >
+              <div class="trial-img" >
+                <img src="/img/Trial/art and craft.jpg" alt=""  >
+              </div>
+              <div class="trial-img-text">
+                <p>Art and Craft</p>
+              </div>
+            </div>
+            <div class="trial-card swiper-slide" onclick="location.href='/FloraFauna.html'">
+              <div class="trial-img">
+                <img src="/img/Trial/flora-fauna.jpg" alt="">
+              </div>
+              <div class="trial-img-text">
+                <p>Flora and Fauna</p>
+              </div>
+            </div>
+            <div class="trial-card swiper-slide" onclick="location.href='/Museums.html'">
+              <div class="trial-img">
+                <img src="/img/Trial/museum.jpg" alt="">
+              </div>
+              <div class="trial-img-text">
+                <p>Museums</p>
+              </div>
+            </div>
+            <div class="trial-card swiper-slide" onclick="location.href='/Temple.html'">
+              <div class="trial-img">
+                <img src="/img/Trial/temple.png" alt="">
+              </div>
+              <div class="trial-img-text">
+                <p>Religion Diversity</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Trial Ends here -->
+
+    <!-- Top Destinations -->
+    <div class="top-destination" id="top-dest">
+      <h1>Top Destinations: </h1>
+      <div class="top-container swiper">
+        <div class="top-dest-content">
+          <div class="top-dest-wrapper swiper-wrapper">
+            <div class="top-dest-card swiper-slide">
+              <div class="top-dest-img">
+                <img src="/img/topDest/dholavira.jpg" alt="">
+              </div>
+              <div class="top-dest-content-text">
+                <p>Dholavira</p>
+              </div>
+            </div>
+            <div class="top-dest-card swiper-slide">
+              <div class="top-dest-img">
+                <img src="/img/topDest/girNational.jpg" alt="">
+              </div>
+              <div class="top-dest-content-text">
+                <p>Gir National Sanctury</p>
+              </div>
+            </div>
+            <div class="top-dest-card swiper-slide">
+              <div class="top-dest-img">
+                <img src="/img/topDest/pavagadh.jpeg" alt="">
+              </div>
+              <div class="top-dest-content-text">
+                <p>Pavagadh</p>
+              </div>
+            </div>
+            <div class="top-dest-card swiper-slide">
+              <div class="top-dest-img">
+                <img src="/img/topDest/ranikiVav.jpg" alt="">
+              </div>
+              <div class="top-dest-content-text">
+                <p>Rani ki vaav</p>
+              </div>
+            </div>
+            <div class="top-dest-card swiper-slide">
+              <div class="top-dest-img">
+                <img src="/img/topDest/sunTemple.jpg" alt="">
+              </div>
+              <div class="top-dest-content-text">
+                <p>Modhera Sun Temple</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev-dest swiper-button-prev"></div>
+          <div class="swiper-button-next-dest swiper-button-next"></div>
+          <div class="swiper-pagination-dest swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Destination Ends -->
+
+    <!-- Begin your journey with -->
+    <div class="begin-jour" id="cities">
+      <h1>Begin Your Journey With: </h1>
+      <div class="begin-container swiper">
+        <div class="begin-content">
+          <div class="begin-wrapper swiper-wrapper">
+            <div class="begin-card swiper-slide">
+              <div class="begin-img">
+                <img src="/img/cities/ahmedabad.jpg" alt="">
+              </div>
+              <div class="begin-city">
+                <p>Ahmedabad</p>
+              </div>
+            </div>
+            <div class="begin-card swiper-slide">
+              <div class="begin-img">
+                <img src="/img/cities/bhavnagar.jpg" alt="">
+              </div>
+              <div class="begin-city">
+                <p>Bhavnagar</p>
+              </div>
+            </div>
+            <div class="begin-card swiper-slide">
+              <div class="begin-img">
+                <img src="/img/cities/bhuj.jpg" alt="">
+              </div>
+              <div class="begin-city">
+                <p>Bhuj</p>
+              </div>
+            </div>
+            <div class="begin-card swiper-slide">
+              <div class="begin-img">
+                <img src="/img/cities/rajkot.jpg" alt="">
+              </div>
+              <div class="begin-city">
+                <p>Rajkot</p>
+              </div>
+            </div>
+            <div class="begin-card swiper-slide">
+              <div class="begin-img">
+                <img src="/img/cities/vadodara.jpg" alt="">
+              </div>
+              <div class="begin-city">
+                <p>Vadodara</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev-begin swiper-button-prev"></div>
+          <div class="swiper-button-next-begin swiper-button-next"></div>
+          <div class="swiper-pagination-begin swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Journey Ends -->
+
+    <!-- Plan your Stay -->
+    <div class="stay" id="stay">
+      <h1>Plan Your Stay</h1>
+      <div class="stay-container">
+        <div class="stay-item1 stay-item">
+          <div class="stay-content-flex">
+            <div class="stay-content">
+              <p>Toran Hotels</p>
+            </div>
+          </div>
+        </div>
+        <div class="stay-item2 stay-item">
+          <div class="stay-content-flex">
+            <div class="stay-content">
+              <p>Heritage Stay</p>
+            </div>
+          </div>
+        </div>
+        <div class="stay-item3 stay-item">
+          <div class="stay-content-flex">
+            <div class="stay-content">
+              <p>Home Stay</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Plan your Stay Ends -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="foot">
+
+        <div class="foot-container">
+          <div class="foot-trial foot-items">
+            <div class="foot-tri-head"><p>Pick Your Trail</p></div>
+            <div class="foot-tri-content foot-content" onclick="location.href='#trail'">
+              <p>Cuisine</p>
+              <p>Art and Craft</p>
+              <p>Flora and Fauna</p>
+              <p>Museums</p>
+              <p>Religious Sites</p>
+            </div>
+          </div>
+          <div class="foot-top-dest foot-items">
+            <div class="foot-top-head"><p>Top Destinations</p></div>
+            <div class="foot-top-content foot-content">
+              <p>Dholavira</p>
+              <p>Gir National Sanctury</p>
+              <p>Rani ki vaav</p>
+              <p>Pavagad Hill</p>
+              <p>Sun Temple</p>
+            </div>
+        </div>
+        <div class="foot-begin foot-items">
+          <div class="foot-begin-head"><p>Begin Your journey with</p></div>
+          <div class="foot-begin-content foot-content">
+            <p>Ahmedabad</p>
+            <p>Rajkot</p>
+            <p>Vadodara</p>
+            <p>Bhavnagar</p>
+            <p>Bhuj</p>
+          </div>
+        </div>
+        <div class="foot-stay foot-items">
+          <div class="foot-stay-head"><p>Plan your stay</p></div>
+          <div class="foot-stay-content foot-content">
+            <p>Toran Hotels</p>
+            <p>Heritage Stay</p>
+            <p>Home Stay</p>
+          </div>
+        </div>
+      </div>
+      <div class="foot-logo">
+        <img src="/img/logo.png" alt="">
+        <p>©Gujarat Tourism</p>
+      </div>
+    </div>
+    </footer>
+    <!-- Footer Ends -->
+
+    <script src="/js/swiper.js"></script>
+</body>
+</html>

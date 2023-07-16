@@ -1,0 +1,30 @@
+.aboutGuj{
+    margin-top: 95px !important;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about-container{
+    min-height: 500px;
+    /* border: 2px solid green; */
+    margin: 50px 180px;
+    box-shadow: 2px 2px 20px black;
+    background-color: rgb(206, 201, 201);
+    border-radius: 10px;
+}
+
+.about-content p{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 35px 0px;
+    padding: 0px 35px;
+}
+
+.about-container img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 60px !important;
+    padding-bottom: 30px;
+}
